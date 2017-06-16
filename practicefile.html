@@ -1,0 +1,84 @@
+<html>
+
+<head>
+
+	<title>CSS Practice</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+	<style type="text/css">
+
+	.square {
+		height: 100px;
+		width: 100px;
+		margin: 10px;
+		float: left;
+		padding: 10px;
+		text-align: center;
+	}
+
+	#blue {
+		background-color: blue;
+		border-style: solid;
+		border-color: pink orange green yellow;
+		border-width: 6px;
+
+	}
+
+	#red {
+		background-color: red;
+		border: 3px black solid;
+	}
+
+	#green {
+		background-color: green;
+		border-radius: 50%; 
+	}
+
+	p {
+		padding: 10px;
+		font-family: 'Pangolin', cursive;
+		font-size: 200%;
+	}
+
+	.bold {
+		font-weight: bold;
+	}
+
+	.italics {
+		font-style: italic;
+	}
+
+   a {
+		text-decoration:none;
+	}
+            
+	a:hover {
+		text-decoration:underline;
+		color:green;
+            }
+
+	</style>
+
+	<!--Other pseudoclasses: visited, active (i.e. the page you're on at the moment-->
+
+</head>
+
+<body>
+
+	<div> 
+
+		<p> This is some text! </p>
+		<p class = "bold"> Here's some bold text. <span class=italics> Here's some bold and italics text. </span></p>
+		<a href="http://www.google.com" target="_blank"> This is a non-underlined link to Google that turns green and underlined when you hover!</a>
+
+	</div>
+
+	<div class="square" id="red">Square 1</div>
+
+	<div class="square" id="blue">Square 2</div>
+
+	<div class="square" id="green">Square 3</div>
+
+</body>
+
+</html>
